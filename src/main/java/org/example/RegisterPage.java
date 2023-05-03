@@ -25,4 +25,22 @@ public class RegisterPage extends Utils {
         clickOnElement(_registerButton);
 
     }
+    public void enterRegisterUpdatedDetails() {
+
+        typeText(_firstName, "TestFirstname");
+        //type last name
+        typeText(_lastName, "TestLastname");
+        //type email address
+        typeText (_Email,"mohit01@gmail.com");
+        //type password
+        typeText(_password, "1234567");
+        //type confirm password
+        typeText(_confirmPassword, "1234567");
+        //click on register submit button
+        clickOnElement(_registerButton);
+
+    }
+
+
+
 }
