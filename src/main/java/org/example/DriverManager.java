@@ -20,7 +20,7 @@ public class DriverManager extends Utils{
 
     @AfterMethod
     public static void closeBrowser() {
-        driver.close();
+        //driver.close();
     }
 
 

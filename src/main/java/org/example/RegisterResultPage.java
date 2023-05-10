@@ -9,7 +9,7 @@ public class RegisterResultPage extends Utils {
 
         String actualMessage = getTextFromElement(By.xpath("//div[@class='result']"));
         System.out.println("My message:" + actualMessage);
-        Assert.assertEquals(actualMessage, expectedRegistrationCompleteMsg, "Registration is not working");
+        Assert.assertEquals(actualMessage, expectedRegistrationCompleteMsg, "Thanks for registration");
     }
 
 

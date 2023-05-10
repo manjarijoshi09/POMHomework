@@ -81,7 +81,7 @@ public class TestSuit {
             //get text message from web element
             String actualMessage = getTextFromElement(By.xpath("//div[@class='result']"));
             System.out.println("My message:" + actualMessage);
-            Assert.assertEquals(actualMessage, expectedRegistrationCompleteMsg, "Registration is not working");
+            Assert.assertEquals(actualMessage, expectedRegistrationCompleteMsg, "Thanks for registration");
 
         }
 
@@ -236,7 +236,7 @@ public class TestSuit {
             clickOnElement(By.className("clear-list"));
             String actualMessage2 = getTextFromElement(By.className("no-data"));
             System.out.println("MyMessage :" + actualMessage2);
-            Assert.assertEquals(actualMessage2, expectedCompareProductMessage, "Can not comparing product");
+            Assert.assertEquals(actualMessage2, expectedCompareProductMessage, "Your registration completed");
         }
     }
 
