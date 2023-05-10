@@ -38,7 +38,7 @@ public class CheckOutAsGuest extends Utils{
     public void BillingAddress(){
         typeText(_firstName,"Subhash");
         typeText(_lastName,"patel");
-        typeText(_emailAddress,"Shubhash_patel@gmail.com");
+        typeText(_emailAddress,"Subhash_patel@gmail.com");
         typeText(_companyName,"Soda House Ltd");
         selectDropDownElementByText(_countryName,"United Kingdom");
         typeText(_cityName,"London");
