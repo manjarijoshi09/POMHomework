@@ -36,13 +36,13 @@ public class CheckOutAsGuest extends Utils{
 
     }
     public void BillingAddress(){
-        typeText(_firstName,"Rishi");
+        typeText(_firstName,"Subhash");
         typeText(_lastName,"patel");
-        typeText(_emailAddress,"Rishi_patel@gmail.com");
-        typeText(_companyName,"fresh fruit ltd");
+        typeText(_emailAddress,"Shubhash_patel@gmail.com");
+        typeText(_companyName,"Soda House Ltd");
         selectDropDownElementByText(_countryName,"United Kingdom");
         typeText(_cityName,"London");
-        typeText(_address1,"111 ring road");
+        typeText(_address1,"11 muskat road");
         typeText(_zip,"12345");
         typeText(_phoneNumber,"1234567");
         typeText(_faxNumber,"123456");
@@ -57,15 +57,15 @@ public class CheckOutAsGuest extends Utils{
         //selectDropDownElementByText(_visaType,"visa");
         clickOnElement(_visaType);
         //Type cardholder name
-        typeText(_cardHolderName,"Rishi");
+        typeText(_cardHolderName,"Shubhash");
         //Type cardholder number
-        typeText(_cardHolderNumber,"4485676406648637");
+        typeText(_cardHolderNumber,"4539689751901440");
         //enter expiry month
-        selectDropDownElementByValue(_expireMonth,"12");
+        selectDropDownElementByValue(_expireMonth,"01");
         //enter expiry year
-        selectDropDownElementByValue(_expireYear,"2027");
+        selectDropDownElementByValue(_expireYear,"2026");
         //clickOnElement(_cardCode);
-        typeText(_cardCode,"959");
+        typeText(_cardCode,"396");
         //click on continue button
         clickOnElement(_continueAfterCardDetails);
         //click on conform order
