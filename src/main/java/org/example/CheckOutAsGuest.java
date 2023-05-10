@@ -57,7 +57,7 @@ public class CheckOutAsGuest extends Utils{
         //selectDropDownElementByText(_visaType,"visa");
         clickOnElement(_visaType);
         //Type cardholder name
-        typeText(_cardHolderName,"Shubhash");
+        typeText(_cardHolderName,"Subhash");
         //Type cardholder number
         typeText(_cardHolderNumber,"4539689751901440");
         //enter expiry month
